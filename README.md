@@ -2,8 +2,10 @@
 
 ### EN-US
 
+[Use without downloading it!](https://0lostconnection.github.io/Webhook-Sender-HTML/)
+
 Made entirely in HTML and Javascript, utilising `JQuerry` and `Bootstrap`, the **Webhook Sender HTML** was made with the intention to facilitate the sendding of Embed Menssages both on **Discord** and **Guilded**.
-[**Download**](https://github.com/0LostConnection/Webhook-Sender-HTML/releases)
+[**Download**](https://github.com/0LostConnection/Webhook-Sender-HTML/releases) & [**Wiki with guides**](https://github.com/0LostConnection/Webhook-Sender-HTML/wiki)
 
 To create the message code, I suggest you to use [this](https://leovoel.github.io/embed-visualizer/) website. **Don't forgget to activate the** ***"Webhook Mode"!***
 
@@ -12,6 +14,11 @@ To create the message code, I suggest you to use [this](https://leovoel.github.i
 &nbsp; 
 ### FAQ
 
+> I don't know how to create the message code.
+
+If you don't know how to code the message, have a look at the [application's Wiki](https://github.com/0LostConnection/Webhook-Sender-HTML/wiki)!
+
+&nbsp; 
 >  What is `Content`?
 
 `Content` is the text that will be outside the embed message
@@ -37,11 +44,14 @@ Yes, just use the "Content" field of the code.
 | ------ | ------ |
 | Discord | **LostConnection#0001** |
 
+---
 
 ## PT-BR
 
+[Use sem precisar baixar!](https://0lostconnection.github.io/Webhook-Sender-HTML/)
+
 Feito inteiramente com HTML e Javascript, utilizando `JQuerry` e `Bootstrap`, o **Webhook Sender HTML** foi feito com a intenção de facilitar o envio de Mensagens Embed tanto no **Discord** quanto no **Guilded**.
-[**Download**](https://github.com/0LostConnection/Webhook-Sender-HTML/releases)
+[**Download**](https://github.com/0LostConnection/Webhook-Sender-HTML/releases) & [**Wiki com guias**](https://github.com/0LostConnection/Webhook-Sender-HTML/wiki/Home-pt-BR)
 
 Para criar o código da mensagem, sugiro que utilize [esse](https://leovoel.github.io/embed-visualizer/) site. **Não se esqueça de ativar o** ***"Modo Webhook"!***
 
@@ -50,6 +60,11 @@ Para criar o código da mensagem, sugiro que utilize [esse](https://leovoel.gith
 &nbsp; 
 ### FAQ
 
+> I don't know how to create the message code.
+
+Se você não sabe criar o código da mensagem, dê uma olhada na [Wiki da aplicação!](https://github.com/0LostConnection/Webhook-Sender-HTML/wiki)!
+
+&nbsp; 
 > O que é `Content`?
 
 `Content` é o texto que vai ficar fora da mensagem

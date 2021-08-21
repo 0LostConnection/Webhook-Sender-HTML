@@ -3,16 +3,11 @@
    <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title>Webhook Sender HTML 1.0.0</title>
+      <title>Webhook Sender HTML 1.0.1</title>
       <style type="text/css">
          body {
          font-family: helvetica, arial, sans-serif;
          margin: 2em;
-         }
-         .container {
-         font-style: bold;
-         color: #2d333d;
-         text-align: center;
          }
          input {
          width: 10%;
@@ -22,9 +17,13 @@
          .txtarea {
          width: 50%;
          box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.20);
+         text-align: left;
          }
          .mybtn {
          width: 13%;
+         }
+         .txt-align {
+            text-align: center;
          }
       </style>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -34,35 +33,26 @@
    </head>
    <body>
       <div>
-         <h1 class="container mt-4 mb-4 display-4">Webhook Sender HTML 1.0.0</h1>
+         <h1 class="txt-align mt-4 mb-4 display-4">Webhook Sender HTML 1.0.1</h1>
       </div>
       <div class="container d-grid gap-3">
          <div class="p-2 form-group">
             <input class="mx-auto form-control col-sm-10" id="url" type="url" placeholder="Webhook URL" />
          </div>
          <div class="p-2 form-group">
-            <textarea class="mx-auto txtarea form-control col-sm-10" id="code" rows="10" placeholder="Code"></textarea>
+            <textarea class="mx-auto txtarea form-control col-sm-10" id="code" rows="10" placeholder="JSON code"></textarea>
          </div>
-         <!--         <div class="p-2 form-group">
-            <textarea class="mx-auto txtarea form-control col-sm-10" id="content" rows="2" placeholder="Content"></textarea>
-            </div> -->
-         <div class="p-2">
-            <button id="btn" class="rounded-pill mb-4 mybtn btn btn-primary" </button>Send</button>
+         <div class="txt-align p-2">
+            <button id="btn" class="rounded-pill mb-4 mybtn btn btn-primary " </button>Send</button>
          </div>
       </div>
-      <footer class="container">
-         <h5>
-            Created by LostConnection
-         </h5>
+      <footer class="txt-align container">
+         <h5>Created by LostConnection</h5>
+         <h5><a href="https://github.com/0LostConnection/Webhook-Sender-HTML">Github Repository</a> - <a href="https://github.com/0LostConnection/Webhook-Sender-HTML/wiki/">Wiki</a></h5>
       </footer>
       <script>
          $(document).ready(function () {
              $('#btn').click(function () {
-                 /* 
-                                 var xhr = new XMLHttpRequest();
-                                 xhr.open("POST", $("#url").val(), true)
-                                 xhr.setRequestHeader("Content-Type", "application/json")
-                                 xhr.send(JSON.stringify(JSON.parse($("#code").val()))) */
                  $.ajax({
                      url: $("#url").val(),
                      type: "POST",
